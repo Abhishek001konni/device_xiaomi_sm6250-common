@@ -679,9 +679,9 @@
     </integer-array>
 
     <!-- Smart charging -->
-    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
-    <string name="config_SmartChargingSuspendValue" translatable="false">1</string>
-    <string name="config_SmartChargingResumeValue" translatable="false">0</string>
+    <string name="config_adaptiveChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/input_suspend</string>
+    <string name="config_adaptiveChargingSuspendValue" translatable="false">1</string>
+    <string name="config_adaptiveChargingResumeValue" translatable="false">0</string>
 
     <!-- QS System Info -->
     <string name="config_sysCPUTemp">/sys/devices/virtual/thermal/thermal_zone0/temp</string>
@@ -725,5 +725,14 @@
             2 - Global actions menu
     -->
     <integer name="config_keyChordPowerVolumeUp">1</integer>
+
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
+    <!-- Whether device supports gaming mode profiles -->
+    <bool name="config_gamingmode_performance">true</bool>
+
+    <!-- Whether to enable Adaptive Charging -->
+    <bool name="config_supportAdaptiveCharging">true</bool>
 
 </resources>
