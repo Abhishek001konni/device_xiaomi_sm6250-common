@@ -500,6 +500,3 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libnl
 
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
