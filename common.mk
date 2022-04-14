@@ -503,11 +503,10 @@ PRODUCT_COPY_FILES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl \
-    libwfdaac_vendor \
-    WfdCommon
+    libwfdaac_vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Speed up
 PRODUCT_DEXPREOPT_SPEED_APPS += \
